@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div
+    | Uptime <br>
+    //| [w - d - h:m] <br>
+    = uptime
+  <br>
+  div
+    | Downtime <br>
+    //| [w - d - h:m] <br>
+    = downtime
+  <br>
+  div
+    | Ratio <br>
+    = ratio
